@@ -150,9 +150,9 @@ function setpaths()
     export ANDROID_TOOLCHAIN_2ND_ARCH=
     local ARCH=$(get_build_var TARGET_ARCH)
     case $ARCH in
-        x86) toolchaindir=x86/x86_64-linux-android-$targetgccversion/bin
+        x86) toolchaindir=x86/x86_64-linux-$targetgccversion/bin
             ;;
-        x86_64) toolchaindir=x86/x86_64-linux-android-$targetgccversion/bin
+        x86_64) toolchaindir=x86/x86_64-linux-$targetgccversion/bin
             ;;
         arm) toolchaindir=arm/arm-linux-androideabi-$targetgccversion/bin
             ;;
